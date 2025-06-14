@@ -95,7 +95,8 @@ body{
     font-size: 24px;
 }
 .parametro-senha__texto{
-    border: 2px solid var(--borda)
+    border-top: 2px solid var(--borda);
+    border-bottom: 2px solid var(--borda);
 }
 
 @media screen and (min-width: 768px) {
