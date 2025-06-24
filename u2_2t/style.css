@@ -1,4 +1,4 @@
-:root{
+ :root{
     --branco: white;
     --cor-de-fundo: #00162E;
     --fundo-senha: #00244D;
@@ -93,10 +93,45 @@ body{
     border: 2px solid var(--borda);
     padding: 24px;
     font-size: 24px;
+    cursor: pointer;
 }
 .parametro-senha__texto{
     border-top: 2px solid var(--borda);
     border-bottom: 2px solid var(--borda);
+}
+label{
+    font-size: 20px;
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.barra{
+    background-color: var(--fundo-senha);
+    height: 30px;
+    width: 100%;
+}
+.forca{
+    height: 30px;
+    position: relative;
+    bottom: 30px;
+}
+.fraca{
+    width: 25%;
+    background-color: #E71B32; 
+}
+.parametro-senha-textos{
+    display: flex;
+    justify-content: space-between;
+}
+.media{
+    background-color: #FAF408;
+    width: 50%;
+}
+.forte{
+    background-color: #00FF85;
+    width: 100%;
 }
 
 @media screen and (min-width: 768px) {
